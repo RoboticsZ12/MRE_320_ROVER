@@ -1,1 +1,19 @@
+HARDWARE:
+---------
+For the hardware portion of the project the description is quite straight forward to understand.
+Basically, the only task was to ustilize the guide given by @BrandonHickey to construct the body
+and electronics of the rover. 
+
+For the body, wheels, and suspension system, we utilized a 3-D printer to print out all the pieces. 
+Since we are utilizing a 3-D printer, there was some margin for error from the printers side. 
+Sometimes the printer will leave behind excess resin that will need to be sanded down prior to assembly. 
+
+If these comnponents are not sanded properly, then the rough edges and or excess material will cause a 
+frictional force that could produce unexpected outputs. The crucial spot we needed to make sure was 
+proficiently sanded, was around the suspension system. 
+
+The suspension system was also 3-D printed is held together my a spring, shock system, that will compress
+and stretch depending on the terrain it is encountering. If these components are not sanded properly, as 
+stated previously, the "shock system" will grind against the material causing unexpected fiction which will 
+cause unexpected and inaccurate movemnets from the designated waypoint. 
 

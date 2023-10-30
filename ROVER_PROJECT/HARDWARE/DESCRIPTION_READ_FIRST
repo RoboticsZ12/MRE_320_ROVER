@@ -1,3 +1,4 @@
+---------
 HARDWARE:
 ---------
 For the hardware portion of the project the description is quite straight forward to understand.
@@ -17,4 +18,17 @@ and stretch depending on the terrain it is encountering. If these components are
 stated previously, the "shock system" will grind against the material causing unexpected fiction which will 
 cause unexpected and inaccurate movemnets from the designated waypoint. 
 
-The hardware portion can be seen in the "HARDWARE_OUTPUT" file.
+------------
+ELECTRONICS:
+------------
+The electronic portion of the hardware was quite simple as well. Once agian following the outline provided
+by @BrandonHickey, the electronic portion will cover the mojority of what will make the rover run. For example,
+installation of motors, battery, on/off switch, rasberry pi, and radios. 
+
+All of these components combined creates the driving/communication component of the rover. As stated previously,
+everything was mapped out in the manual provided. The one component that we recommend going off from the manual, 
+is to configure the rasberry pi's accelerometer BEFORE attaching to the body of the rover. This is not stated in 
+the manual, however, if done the way of the manual, then bolting and unbolting the of the rasberry pi will need to 
+be done to configure properly. 
+
+The hardware portion for both electrical and body configurations can be seen in the "HARDWARE_OUTPUT" file.

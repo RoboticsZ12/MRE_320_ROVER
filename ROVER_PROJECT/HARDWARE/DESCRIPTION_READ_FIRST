@@ -17,3 +17,4 @@ and stretch depending on the terrain it is encountering. If these components are
 stated previously, the "shock system" will grind against the material causing unexpected fiction which will 
 cause unexpected and inaccurate movemnets from the designated waypoint. 
 
+The hardware portion can be seen in the "HARDWARE_OUTPUT" file.

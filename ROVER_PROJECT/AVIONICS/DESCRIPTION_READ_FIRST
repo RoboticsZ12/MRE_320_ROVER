@@ -1,1 +1,14 @@
+---------
+AVIONICS:
+---------
+In the avionics portion of the build, we are to create the "brain" of the rover. Basically, the rover runs off of a 
+controller called a rasberry pi. This device is not just a microcontroller, but a microcomputer. This system can be 
+utilized for thousands of tasks. In our case, the rasberry pi will be utilized to pair with a navio2, which will then 
+be used to utilize the proportional, integral and derivative system, or PID. 
 
+Through PID, we will be able to create a "waypoint" for the rover so the rasberry pi will navigate and drive the rover 
+vs a user having to manual control the rover. An exmaple of this can be seen in the FANUC robots used for industrial purposes.
+This is the reassoning behind the precise sanding described in the "HARDWARE" file. Since the rover is being driven via PID, 
+a manual driver will not be able to correct the errors caused by friction. 
+
+According to the PID controller, the rover is taking the shortest route to the designated "way point". However, 

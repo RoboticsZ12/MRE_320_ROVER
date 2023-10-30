@@ -11,4 +11,5 @@ vs a user having to manual control the rover. An exmaple of this can be seen in 
 This is the reassoning behind the precise sanding described in the "HARDWARE" file. Since the rover is being driven via PID, 
 a manual driver will not be able to correct the errors caused by friction. 
 
-According to the PID controller, the rover is taking the shortest route to the designated "way point". However, 
+According to the PID controller, the rover is taking the shortest route to the designated "way point". However, the PID 
+controller does not read friction, so the friction should be filed down as mention in the "HARDWARE" portion. 

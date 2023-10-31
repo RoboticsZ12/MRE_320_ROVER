@@ -1,1 +1,12 @@
+----------------
+EXTERNAL_SENSOR:
+----------------
+To complete the final portion of the project, we must now decide what external sensor we wish to attach to the rover. 
+In our cases, the DHT-11 temperature sensor was the best option to utilize. Since the navio2 has a built in temperature
+sensor, we can use the external DHT-11 sensor and compare its data from the arduino to the navio2 temperature data. 
 
+This can be compared to a "ground truth" of our phones to read the actual/accurate reading of the temperature. Depending 
+the ouput of each sensor, we can determine how accurate and precise each sensor is. 
+
+We attached this sensor by simply placing the arduino controller into main body of the rover, then plugging the HDMI 
+input into the rasberry pi. This will trigger the powering of the arduino and the start of reading data.

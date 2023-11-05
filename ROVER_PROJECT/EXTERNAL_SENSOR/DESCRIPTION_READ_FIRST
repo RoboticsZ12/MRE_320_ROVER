@@ -10,3 +10,5 @@ the ouput of each sensor, we can determine how accurate and precise each sensor 
 
 We attached this sensor by simply placing the arduino controller into main body of the rover, then plugging the HDMI 
 input into the rasberry pi. This will trigger the powering of the arduino and the start of reading data.
+
+NOTE: ACTUAL TEMPERATURE WAS 45 DEGREES FAHRENHEIT.

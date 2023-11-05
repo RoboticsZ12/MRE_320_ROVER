@@ -1,5 +1,5 @@
 # MRE_320_ROVER
-For the final project, we are tasked with creating a mars rover with the aid from @Brandon_Hickey. The project is split into four seperate components. 
+For the final project, we are tasked with creating a mars rover with the aid from @Brandon_Hickey. The project is split into three seperate components. 
 1) Hardware design
    ->Basic configuration for the body of the rover.
    

@@ -1,4 +1,3 @@
-
 #include "DHT.h"
 
 #define DHTPIN 4  // Set the pin connected to the DHT11 data pin

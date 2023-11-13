@@ -5,10 +5,20 @@ One of the crucial components of the project is to decide which external sensor 
 In our case, the DHT-11 temperature sensor was the best option to utilize. Since the navio2 has a built in temperature
 sensor, we can use the external DHT-11 sensor and compare its data from the arduino to the navio2 temperature data. 
 
-This can be compared to a "ground truth" of our phones to read the actual/accurate reading of the temperature. Depending 
-the ouput of each sensor, we can determine how accurate and precise each sensor is. 
+This can be compared to a "ground truth" of our phones to read the actual reading of the temperature. Depending 
+on the ouput of each sensor, we can determine how accurate and precise each sensor is. 
 
-We attached this sensor by simply placing the arduino controller into main body of the rover, then plugging the HDMI 
+We attached this sensor by simply placing the arduino controller into the main body of the rover, then plugging the HDMI 
 input into the rasberry pi. This will trigger the powering of the arduino and the start of reading data.
 
-NOTE: ACTUAL TEMPERATURE WAS 45 DEGREES FAHRENHEIT.
+Keep in mind that we decided not to pair both the DHT-11 sensor with the rasberry pi due to clock interferences. The 
+rasberry pi runs on its own internal clock. Whereas the DHT-11 runs on its own internal clock. To ensure both these 
+clocks correlate, one simple method could be to simply set a flag variable in the arduino code. This flag can be set 
+to trigger whenever the motors of the rover are triggered. 
+
+Although this would be simple, we did not approach the readings this way. Instead, we had the code of the arduino start
+reading its data right when power is supplied to the device. Our reasoning for this decision is to acquire a few readings 
+of temperature before the arduino and battery begin to heat up causing the readings to be warmer than anticipated. 
+
+Using this mehtod, we can get initial temperature readings, and final temperature readings. Comparing these two sets of 
+data, we can make a final estimation of what the temperature in the bay of the rover. 

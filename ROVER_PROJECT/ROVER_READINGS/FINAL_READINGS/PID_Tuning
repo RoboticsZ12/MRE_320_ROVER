@@ -1,1 +1,15 @@
+-----------
+PID_TUNING:
+-----------
 
+For the PID tuning configuration, the terrain of the chosen route will become essential for the final output. 
+For this project, the terrain of a parking lot was chosen. Below will be the chosen values for the P, proportional,
+I, integral, and D, derivative. 
+
+P = 1.5
+I = .2
+D = 0
+
+As previously stated, these values may differ depending on the construction of the rover, the terrain, and even 
+specific code used. These values can, and should be, changed between each run to make the most accurate and efficient 
+waypoint mission. 

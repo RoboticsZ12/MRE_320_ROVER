@@ -8,7 +8,7 @@ emphasis of the project was centered on. This graph will determine the error fro
 The other graphs shown are simple barometric readings from the PI. A few would be barometric temperature and pressure, and IMU 
 temperature. This data is what was used to compare to the DHT-11 readings found in the "EXTERNAL_SENSOR" file. 
 
-Comparing the data from the PI to that of the DHT-11 we could find the temperature the lithium battery outputs and the temperature
+Comparing the data from the PI to that of the DHT-11, we could find the temperature the lithium battery outputs and the temperature
 the motor drivers output. Due to this temperature, the readings from the PI will be higher than expected.
 
 {NOTE: The temperature when recording the data was 65 degrees F.}

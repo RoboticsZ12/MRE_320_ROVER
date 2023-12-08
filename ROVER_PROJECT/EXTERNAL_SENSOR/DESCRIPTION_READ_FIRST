@@ -20,5 +20,5 @@ Although this would be simple, we did not approach the readings this way. Instea
 reading its data right when power is supplied to the device. Our reasoning for this decision is to acquire a few readings 
 of temperature before the arduino and battery begin to heat up causing the readings to be warmer than anticipated. 
 
-Using this mehtod, we can get initial temperature readings, and final temperature readings. Comparing these two sets of 
-data, we can make a final estimation of what the temperature in the bay of the rover is at max battery and pi heat.
+Using this mehtod, we can get initial, and final temperature readings. Comparing these two sets of data, we can make a
+final estimation of what the temperature in the bay of the rover is at max battery and pi heat.

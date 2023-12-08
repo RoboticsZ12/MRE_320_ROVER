@@ -20,6 +20,11 @@ the rover will approach the waypoints as a FINE movement, or a CONTINUOUS moveme
 has to do with how closely the two rover gets to the points. 
 
 With a FINE movement, the rover will simply go to the designated point, stop, then turn to the next point. When utilizing a 
-continuous movement, the the robot will approach the point as close as it can without stopping the movement of the rover. 
+continuous movement, the robot will approach the point as close as it can without stopping the movement of the rover. 
 Basically, setting a radius from the set waypoint. Our approach was utilizing a FINE like movement to achieve a more accurate
 route. We decided to sacrifice a few seconds of time to save the accuracy of the run.
+
+However, through pivot turns, this time lost from FINE movements can be compensated for. Pivot turns act as a differential steering turn. 
+The rover will approach the point, stop, then turn in its place on the point to face the next point. This strategy will 
+help ensure the rover is approaching the point with the finest accuracy, and ensure that the GPS is set to approach the next 
+point accurately. 

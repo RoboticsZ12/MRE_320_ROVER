@@ -1,1 +1,19 @@
+-------------
+IMPROVEMENTS:
+-------------
 
+Below will be a list of improvements that could be utilized when conducting this project. Most improvements are to make the readings 
+of the temperature data more accurate so that the readings are not so high. 
+
+1) Utilizing a 3D printed stand that stands approximately 1 foot high, the external sensor could be placed on the stand to ensure that 
+the sensor would not read any of the heat being generated within the avionics bay of the rover. 
+
+2) Testing in different climates. Due to the use of Arduino kits for our sensors, we think that hot and cold climates could effect the 
+accuracy of the readings from the sensors. If more time, we could test in summer climates for hot temperatures of 90 degrees and higher, 
+then fall, and then winter. 
+The fall data is already recorded under the "external_sensor" tab. However, if we could test our sensors in these different climates, we 
+could also come to general consensus of what climate our sensors measure the best. 
+
+3) Find a way to get the PI out of the avionics bay of the rover. Due to its location within the rover, the PI temperature readings read 
+exceptionally high compared to our DHT-11 readings. If we could find a way of extracting the PI from the bay, we could acquire more accurate
+data readings that we could compare our DHT-11 data. 
